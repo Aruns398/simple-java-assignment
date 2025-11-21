@@ -56,10 +56,15 @@ public class StationeryOops
 
         System.out.println("\n\n==================== BILL ======================");
         System.out.println("ITEM\t\tPRICE\tQUANTITY\tTOTAL");
+        if(pencil.quantity > 0)
         System.out.println("Pencil\t\tRs" + pencil.price + "\t" + pencil.quantity + "\t\tRs" + pencil.getTotal());
+        if(pen.quantity > 0)
         System.out.println("Pen\t\tRs" + pen.price + "\t" + pen.quantity + "\t\tRs" + pen.getTotal());
+        if(ruler.quantity > 0)
         System.out.println("Ruler\t\tRs" + ruler.price + "\t" + ruler.quantity + "\t\tRs" + ruler.getTotal());
+        if(smallNote.quantity > 0)
         System.out.println("Small Note\tRs" + smallNote.price + "\t" + smallNote.quantity + "\t\tRs" + smallNote.getTotal());
+        if(longNote.quantity > 0)
         System.out.println("Long Note\tRs" + longNote.price + "\t" + longNote.quantity + "\t\tRs" + longNote.getTotal());
         System.out.println("\n-----------------------------------------------");
         System.out.println("            Total Amount: Rs." + total);
